@@ -18,6 +18,8 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    text-align: center;
+    color: lime
 }
 
 .header h1 .seo {
@@ -115,24 +117,21 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    height: 120px;
+}
+
+.benefit-lead img {
 }
 
 .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+} 
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -197,4 +196,7 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+.footer h2 a {
+    color: blueviolet;
 }
